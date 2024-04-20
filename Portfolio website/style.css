@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #171719;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav {
+    top: 0px;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(86, 86, 125);
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.right ul {
+    display: flex;
+    gap: 20px;
+}
+
+.right ul li {
+    list-style: none;
+
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li a:hover {
+    color: rgb(173, 226, 185);
+}
+
+nav .left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 30px;
+    border-color: rgb(84, 79, 147);
+    margin-bottom: 50px;
+}
+
+.firstsection div {
+    width: 40vw;
+}
+
+.leftpart {
+    font-size: 40px;
+    text-align: center;
+}
+
+.rightpart img {
+    height: 500px;
+    margin-top: 50px;
+}
+
+.name {
+    color: rgb(237, 237, 165);
+}
+
+#element {
+    color: rgb(165, 24, 165);
+}
+
+hr {
+    border: none;
+    background-color: rgb(57, 186, 233);
+    height: 2px;
+    width: 90vw;
+    margin: auto;
+}
+
+.tech {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    color: rgb(57, 186, 233);
+}
+
+.secondsection .container {
+    border: 2px solid white;
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 30px;
+    border-color: rgb(84, 79, 147);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: rgb(68, 34, 74);
+    position: relative;
+    border: none;
+    height: 60vh;
+    width: 20vw;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+
+.image {
+    margin: auto;
+    text-align: center;
+}
+
+.content {
+    padding: 0px 10px;
+}
+
+.content h1 {
+    text-align: center;
+    padding: 7px;
+    opacity: 0.9;
+    color: aliceblue;
+}
+
+.content p {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(219, 214, 214);
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer .foot {
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.foot div {
+    width: 15vw;
+}
+
+footer .end {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
